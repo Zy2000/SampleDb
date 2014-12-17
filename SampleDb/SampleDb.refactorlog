@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8631a4d8-cf91-4e65-a9df-ac448702ac14" ChangeDateTime="12/17/2014 23:06:32">
+    <Property Name="ElementName" Value="[dbo].[FK_CustomerRanking_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CustomerCustomerRanking]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="863d5c69-9ed9-407d-a06c-3d57f284b5cc" ChangeDateTime="12/17/2014 23:18:20">
+    <Property Name="ElementName" Value="[dbo].[CustomerRanking].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerRankingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b5610b2-9b78-48a2-a26b-7cd2316e47f0" ChangeDateTime="12/17/2014 23:21:53">
+    <Property Name="ElementName" Value="[dbo].[FK_Customer_FK_Customer_CustomerRanking]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Customer_CustomerRanking]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1333a3e-1fe8-4131-a927-b2dbf49c43d6" ChangeDateTime="12/17/2014 23:35:20">
+    <Property Name="ElementName" Value="[dbo].[CustomerRanking]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Ranking]" />
+  </Operation>
+</Operations>
