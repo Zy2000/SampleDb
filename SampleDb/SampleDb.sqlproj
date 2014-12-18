@@ -109,6 +109,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="Snapshots" />
+    <Folder Include="dbo\StoredProcedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Customer.sql">
@@ -124,9 +125,11 @@
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
     <Build Include="dbo\Tables\Ranking.sql" />
+    <Build Include="dbo\StoredProcedure\uspRankCustomers.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\SampleDb_BaseLine.dacpac" />
+    <None Include="Snapshots\SampleDB_complete.dacpac" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SampleDb.refactorlog" />
