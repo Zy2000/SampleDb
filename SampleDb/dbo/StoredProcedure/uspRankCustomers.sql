@@ -27,3 +27,7 @@ AS
 
 	CLOSE curCustomer
 	DEALLOCATE curCustomer
+
+-- adding comment - no idea if its tracked?
+
+

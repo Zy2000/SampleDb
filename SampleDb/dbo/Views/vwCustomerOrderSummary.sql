@@ -10,3 +10,4 @@ CREATE VIEW vwCustomerOrderSummary WITH SCHEMABINDING AS
    LEFT OUTER JOIN dbo.[Ranking] AS r on r.CustomerRankingId= c.CustomerRankingId
   GROUP BY
    c.CustomerId, c.FirstName, c.LastName ,r.RankName
+-- test
